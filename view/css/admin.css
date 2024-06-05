@@ -1,0 +1,24 @@
+body{
+    background: #EED6BC;
+}
+
+html, body,.container,.row-login {
+    height:100%;
+}
+
+
+.login-container{
+    background: #8E3235;
+}
+
+#typeEmailX:focus{
+    outline: none !important;
+    border:2px solid #EED6BC;
+    box-shadow: 0 0 5px #EED6BC;
+}
+
+#typePasswordX:focus{
+    outline: none !important;
+    border:2px solid #EED6BC;
+    box-shadow: 0 0 5px #EED6BC;
+}

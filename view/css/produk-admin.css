@@ -1,0 +1,53 @@
+
+.row{
+    margin: 0 !important;
+}
+.col{
+    padding: 0 !important;
+}
+
+
+.data-produk{
+    width:240px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 20px;
+}
+
+.data-produk a{
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+
+.btn{
+    text-decoration: none;
+    color: #EFE6DF;
+    border: 1px solid #8E3235;
+    background: #8E3235;
+    width: 80%;
+    transition: 0.4;
+    -webkit-transition: 0.4;
+    -moz-transition: 0.4;
+    -ms-transition: 0.4;
+    -o-transition: 0.4;
+}
+
+.btn a{
+    color: white;
+    text-decoration: none;
+}
+
+.btn:hover{
+    border: 1px solid #71282a;
+    background: #78292c;
+}
+
+.cari{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 5px;
+}
+
+
+

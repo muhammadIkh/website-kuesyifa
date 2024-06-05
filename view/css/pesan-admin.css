@@ -1,0 +1,114 @@
+body{
+    background: #EFE6DF;
+}
+
+table {
+  border-collapse: collapse;
+  border-radius: 1em;
+  overflow: visible;
+  -webkit-border-radius: 1em;
+  -moz-border-radius: 1em;
+  -ms-border-radius: 1em;
+  -o-border-radius: 1em;
+   box-shadow: 0 4px 5px 0 rgba(0,0,0,0.2);
+}
+
+thead th{
+    text-align: center;
+    background: #8E3235;
+    color: white;
+}
+
+tbody th,td{
+    text-align: center;
+    background: #f2f2f2;
+    color: black;
+}
+
+html body{
+    height: 100%;
+}
+
+.row{
+    margin: 0 !important;
+    height: 100%;
+}
+.col{
+    padding: 0 !important;
+}
+
+:root {
+--primary-color: #EFE6DF;
+--secondary-color: #8E3235;
+--complimentary-color: #EFE6DF;
+--contrast-color: #EFE6DF;
+--light-color: #EFE6DF;
+}
+
+nav a {
+    font-size: 40px;
+    color: #fff;
+    text-decoration: none;
+    padding:20px;
+    text-align: center;
+}
+
+nav div:hover a{
+    text-decoration: none;
+    color: black;
+}
+
+nav div:hover{
+    background-color: #EFE6DF;
+    color: black;
+}
+
+nav .active{
+    background-color: #EED6BC;
+    color: black;
+    transition: 0.5s;
+}
+
+nav .active:hover{
+    background-color: #EFE6DF;
+    color: black;
+}
+
+nav .active:hover a{
+    background-color: #EFE6DF;
+}
+
+nav div{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+nav {
+    position: fixed;
+    left: 0;
+    z-index: 50;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 100vh;
+    background: var(--secondary-color);
+}
+
+.dropdown-menu{
+    padding: 0;
+}
+
+.satu:hover{
+    color: white;
+    background-color: #8E3235;
+}
+
+
+
+
