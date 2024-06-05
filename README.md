@@ -1,7 +1,4 @@
 # website-kuesyifa
-
-<h1>Website kue syifa</h1>
-
 Preview :
 ![image](https://user-images.githubusercontent.com/104843919/229293355-0174bd67-31c4-4412-b048-eda89056c3ac.png)
 <br>
